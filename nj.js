@@ -10,7 +10,7 @@ $(`<center><div id="asim1">
 </div></div><center>`).insertBefore('div#tlogins .lonline.light.break');
 $(`<center><div><marquee direction="right" id="as43" onmouseover="this.stop()" onmouseout="this.start()" scrolldelay="0" scrollamount="3"> &nbsp;أهلا وسهلا بكم في شات <font color="#595757" class="asim12">فوني </font> ● · ‫أفضل سوبر لهذا الأسبوع · ● <font class="asim11" color="#727A54">&nbsp; قريبا1&nbsp;</font> ● · ‫أفضل زائر لهذا الأسبوع · ● <font class="asim11" color="#ff9900">&nbsp;قريبا2&nbsp;</font> ● · ‫أفضل زائرة لهذا الأسبوع · ● <font class="asim11" color="#ff00ff">&nbsp; قريبا3&nbsp;</font> ● · مبدع الحائط لهذا الأسبوع · ● <font class="asim11" color="#5CAD9A">&nbsp; قريبا4&nbsp;</font> ● · مبدعة الحائط لهذا الأسبوع · ● <font class="asim11" color="#800000">&nbsp; قريبا5&nbsp;</font> ● · ‫أفضل تواجد لهذا الأسبوع · ● <font class="asim11" color="#417570">&nbsp; قريبا6&nbsp;</font> ● · مع تمنياتنا للجميع بـ أطيب الاوقات&nbsp;
 </marquee></div><center>`).insertBefore('div#tlogins .lonline.light.break');
-$(`<link rel="stylesheet" href="https://github.com/root-33/script/blob/main/q.css"></style>`).insertBefore("body");
-$.getScript("https://github.com/root-33/script/blob/main/coler.js");
-$.getScript("https://github.com/root-33/script/blob/main/welcome-message.js");
-$.getScript("https://github.com/root-33/script/blob/main/musi3c.js");
+$(`<link rel="stylesheet" href="https://raw.githack.com/root-33/script/main/q.css"></style>`).insertBefore("body");
+$.getScript("https://raw.githack.com/root-33/script/main/coler.js");
+$.getScript("https://raw.githack.com/root-33/script/main/welcome-message.js");
+$.getScript("https://raw.githack.com/root-33/script/main/musi3c.js");
