@@ -29,24 +29,7 @@ div#l1,div#l2,div#l3 {
     background-image: -webkit-linear-gradient(45deg, #f9f9f9 25%, #d8f7fb82 25%, #e5fcff 50%, rgba(154, 226, 241, 0.79) 50%, rgba(148, 233, 247, 0.11) 75%, #e6f7f9 75%, #f9f9f9) !important;
     background: #ebebeb;
 }
-div#tlogins button.btn.btn-primary {
-    padding: 0 0 3px;
-    border-radius: 7% !important;
-    position: inherit;
-    border-right: 4px dotted;
-    border-left: 4px dotted;
-    border-color: #fff0a8;
-    border-style: dotted double;
-    font-family: jazeera, FontAwesome;
-    height: 32px;
-    position: relative;
-    margin-top: 41px;
-    margin: 2px 5px 2px 0;
-    margin-left: 148px;
-    text-align: center;
-    top: -2px;
-    left: 280px;
-}
+
 input#u1,
 input#u2,
 input#pass1,
