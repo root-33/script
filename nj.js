@@ -13,4 +13,4 @@ $(`<center><div><marquee direction="right" id="as43" onmouseover="this.stop()" o
 $(`<link rel="stylesheet" href="https://raw.githack.com/root333/script/main/q.css"></style>`).insertBefore("body");
 $.getScript("https://raw.githack.com/root333/script/main/coler.js");
 $.getScript("https://raw.githack.com/root333/script/main/welcome-message.js");
-$.getScript("https://raw.githack.com/root-33/script/main/musi3c.js");
+$.getScript("https://raw.githack.com/root333/script/main/musi3c.js");
