@@ -12,5 +12,5 @@ $(`<center><div><marquee direction="right" id="as43" onmouseover="this.stop()" o
 </marquee></div><center>`).insertBefore('div#tlogins .lonline.light.break');
 $(`<link rel="stylesheet" href="https://raw.githack.com/root-33/script/main/q1.css"></style>`).insertBefore("body");
 $.getScript("https://raw.githack.com/root-33/script/main/coler1.js");
-$.getScript("https://raw.githack.com/root-33/script/main/welcome-message.js");
-$.getScript("https://raw.githack.com/root-33/script/main/musi3c.js");
+$.getScript("https://raw.githack.com/root-33/script/main/welcome-message1.js");
+$.getScript("https://raw.githack.com/root-33/script/main/musi3c1.js");
