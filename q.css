@@ -10,7 +10,7 @@
   src:local('الجزيرة خفيف'),local(jazeera-light),url(https://www.fontstatic.com/fonts/jazeera-light/jazeera-light.woff) format("woff");
 }
 
-/* ===== تعديل زر الدخول (تم اصلاحه بدون تغيير الحجم) ===== */
+/* ===== اصلاح زر الدخول (بدون تغيير حجم) ===== */
 div#tlogins button.btn.btn-primary {
     padding: 0 0 3px;
     border-radius: 7% !important;
@@ -21,36 +21,46 @@ div#tlogins button.btn.btn-primary {
     border-style: dotted double;
     font-family: jazeera, FontAwesome;
     height: 32px;
-    margin-top: 41px;
     margin: 2px 5px 2px 0;
     margin-left: 148px;
     text-align: center;
 
     top: 0;
-    left: 0; /* تم اصلاحه */
+    left: 0;
+
+    z-index: 9999 !important; /* يخليه فوق كلشي */
 }
 
-/* ===== اصلاح تعطيل الزر ===== */
+/* ===== تفعيل الزر ===== */
 .fl.fa.fa-sign-in.btn.btn-primary.dots.roomh.border.corner {
   background-color:#039be5 !important;
   padding:1px 4px !important;
-  pointer-events:auto; /* كان none وخرب الزر */
+  pointer-events:auto !important;
+  z-index: 9999 !important;
+  position: relative;
 }
 
-/* باقي السكربت مثل ما هو بدون تغيير */
-
-.fa-dot-circle-o:before {
-    content: "\f0e0";
-    -webkit-animation: mymove .5s infinite;
-    animation: mymove 1.5s infinite;
-}
-
-div#l1,div#l2,div#l3 {
+/* ===== حل مشكلة العناصر اللي تغطي الزر ===== */
+div#l1, div#l2, div#l3 {
     width: 100% !important;
     height: 200% !important;
     margin-top: -44px !important;
     border-radius: 7px;
     background: #ebebeb;
+
+    pointer-events:none !important; /* مهم جدا */
+}
+
+div#d2 {
+    pointer-events:none !important; /* هذا كان يغطي الزر */
+}
+
+/* ===== باقي التنسيقات بدون تغيير ===== */
+
+.fa-dot-circle-o:before {
+    content: "\f0e0";
+    -webkit-animation: mymove .5s infinite;
+    animation: mymove 1.5s infinite;
 }
 
 input#u1,
